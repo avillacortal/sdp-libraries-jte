@@ -6,7 +6,7 @@ libraries{
     github
     sdp{
         images{
-            registry    = "http://docker.pkg.github.com/boozallen/sdp-images"
+            registry    = "http://docker.pkg.github.com/v2/boozallen/sdp-images"
             repository  = "boozallen/sdp-images"
             cred        = "github"
             docker_args = "-v /tmp/.m2:/root/.m2 -v /tmp/.sonar:/root/.sonar"
